@@ -7,8 +7,37 @@
 <body>
 	<center>
 		<h1>Carbon Catering</h1>
-		<a class="email" href="mailto:me@imstormy.com?subject=Carbon Catering">callum@carboncatering.co.uk</a>
-	</center>
+		<a class="email" href="mailto:enquiries@carboncatering.co.uk?subject=Carbon Catering">enquiries@carboncatering.co.uk</a>
+    <br>&nbsp;<br>
+
+    <label>Name:</label>
+    <input type="text" id="custName">
+    <br><br>
+    <label>Mobile:</label>
+    <input type="text" id="custNumber">
+    <br><br>
+    <label>Date for services:</label>
+    <input type="date" id="start" name="catering-date"
+    value="2023-06-14"
+    min="2023-06-14" max="2025-06-14">
+    <br><br>
+    <label>How many people:</label>
+    <input type="number" name="guests" id="guests" min="1">
+    <br><br>
+    <label>Catering package:</label>
+    <select name="packages" id="packages">
+      <option value="1">Vegan</option>
+      <option value="2">Vegetarian</option>
+      <option value="3">Meats</option>
+      <option value="4">Pescatarian</option>
+      <option value="4">Custom/Specialised menu</option>
+    </select>
+    <br><br>
+    <label>Allergens:</label>
+    <input type="text" placeholder="Please specify if yes" id="allergens">
+    <br><br>
+    <button type="button">Submit</button>
+  </center>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.1/processing-api.min.js"></script>
 </html>
