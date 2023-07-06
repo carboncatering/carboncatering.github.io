@@ -8,27 +8,46 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.email {
+a.homebutton {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 3em; 
+  text-decoration: none;
+  color: #000;
+}
+
+a.email {
   font-family: 'Comfortaa', cursive;
   font-weight: 300;
   text-decoration: none;
   font-size: 1.5em;
 }
 
-h1 {
-  font-family: 'Comfortaa', cursive;
-  font-weight: 700;
-  font-size: 3em;
-}
-
-label {
+a.formurl {
   font-family: 'Comfortaa', cursive;
   font-weight: 300;
-  font-size: 1.2em; 
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
-button {
-  font-family: 'Comfortaa', cursive;
-  font-weight: 300;
-  font-size: 1em;
+a.my-button{
+ background: linear-gradient(to right,#196BCA ,#317bcd);
+ background-color: #196BCA;
+ color: #fff;
+ font-family: Trebuchet MS;
+ font-size: 18px;
+ font-weight: 400;
+ font-style: normal;
+ text-decoration: none;
+ padding: 14px 15px;
+ border: 0px solid #000;
+ border-radius: 10px;
+ display: inline-block;
+}
+a.my-button:hover{
+ background: linear-gradient(to right,#5482d0 ,#5d8ed3);
+ background-color: #5482d0;
+}
+a.my-button:active{
+ transform: scale(0.95);
 }
